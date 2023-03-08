@@ -26,7 +26,7 @@ public class Game {
                     TotalTries += tries;
                     TotalScore += score;
                     System.out.println();
-                    System.out.println("would you like to play again? yes or no:");
+                    System.out.println("For play again press 1 or For exit press 0 :");
                     play = sc.next().toLowerCase();
                     break;
                 } else if (number > guess && k != limit - 1) {
